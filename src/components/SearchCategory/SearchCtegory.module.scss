@@ -1,0 +1,46 @@
+@import "../../styles/_variaveis";
+
+.categories {
+  padding: 28px;
+
+  .col {
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    font-family: $main-font;
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+
+  .categoryStrip {
+    font-family: $main-font;
+    height: 35px;
+    background-color: $bg-color-two;
+    color: white;
+
+    span {
+      position: relative;
+      top: 5px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .col {
+      padding-left: 0!important;
+      padding-right: 0!important;
+    }
+
+    #category_1,
+    #category_3,
+    #category_5 {
+        padding-right: 10px!important
+    }
+
+    #category_2,
+    #category_4,
+    #category_6 {
+        padding-left: 10px!important
+    }
+  }
+}

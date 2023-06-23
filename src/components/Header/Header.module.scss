@@ -1,0 +1,56 @@
+@import "../../styles/_variaveis";
+
+header {
+  background-color: $bg-color-two;
+  height: $header;
+
+  .logo {
+    position: absolute;
+    width: 125px;
+    height: 18px;
+    left: 22px;
+    top: 20px;
+
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+  }
+
+  .menuIcon {
+    position: relative;
+    z-index: 4;
+  }
+
+  .linkText {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #fff;
+  }
+
+  .linkText,
+  .searchInput,
+  .searchButton {
+    font-family: $main-font;
+    border-radius: 0 !important  ;
+    -webkit-border-radius: 0 !important  ;
+    -moz-border-radius: 0 !important  ;
+    -ms-border-radius: 0 !important  ;
+    -o-border-radius: 0 !important  ;
+  }
+
+  .searchInput {
+    margin-right: 15px;
+    width: 170px;
+    color: $inpt-search;
+  }
+
+  @media (max-width: 450px) {
+    .collapse {
+      position: absolute;
+      padding: 42px 24px 24px;
+      top: 0;
+      right: 0;
+      z-index: 3;
+      background-color: $bg-color-three;
+    }
+  }
+}

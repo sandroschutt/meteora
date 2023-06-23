@@ -1,0 +1,24 @@
+@import "../../styles/_variaveis";
+
+.mainCarousel {
+  &__item {
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .c_info {
+    position: absolute;
+    width: 100%;
+    top: 175px;
+    padding: 0 12.5%;
+    font-family: $main-font;
+    color: white;
+
+    p {
+      font-size: 20px;
+    }
+  }
+}

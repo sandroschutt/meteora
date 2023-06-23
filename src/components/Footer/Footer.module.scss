@@ -1,0 +1,13 @@
+@import "../../styles/_variaveis.scss";
+
+footer {
+    font-family: $main-font;
+    padding: 28px;
+    background-color: $bg-color-two;
+    text-align: center;
+    color: #fff;
+
+    p {
+        margin-bottom: 0;
+    }
+}

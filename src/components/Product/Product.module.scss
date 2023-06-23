@@ -1,0 +1,50 @@
+@import "../../styles/_variaveis.scss";
+
+.productCard {
+  margin: 28px 0;
+  font-family: $main-font;
+
+  .productData {
+    padding: 16px;
+
+    h4,
+    .cardTitle,
+    .cardDescription {
+      margin: 0 auto 16px;
+    }
+
+    h4 {
+      font-size: 16px;
+    }
+
+    .cardDescription {
+      font-size: 13px;
+      height: 60px;
+    }
+
+    .cardButton {
+      background-color: $bg-btn-one;
+    }
+  }
+
+  @media (min-width: 785px) {
+    .cardImage {
+        height: 400px;
+      }
+  }
+
+  @media (min-width: 1440px) {
+    .cardImage {
+        height: 500px;
+      }
+  }
+}
+
+.productCard,
+.cardButton {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
